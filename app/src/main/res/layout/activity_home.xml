@@ -5,10 +5,10 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
-    tools:context="com.hackathon.johndeere.Activity.HomeActivity">
-
+    tools:context="com.hackathon.johndeere.Activity.HomeActivity"
+    tools:openDrawer="start">
 
     <include
         layout="@layout/app_bar_main"
