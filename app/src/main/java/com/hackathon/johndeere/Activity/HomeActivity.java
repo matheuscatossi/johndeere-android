@@ -10,13 +10,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
-import com.hackathon.johndeere.Activity.adapter.ViewPagerAdapter;
-import com.hackathon.johndeere.Activity.fragment.ChatFragment;
-import com.hackathon.johndeere.Activity.fragment.ConsumoFragment;
-import com.hackathon.johndeere.Activity.fragment.DroneFragment;
+import com.hackathon.johndeere.Activity.Adapter.ViewPagerAdapter;
+import com.hackathon.johndeere.Activity.Fragment.ChatFragment;
+import com.hackathon.johndeere.Activity.Fragment.ConsumoFragment;
+import com.hackathon.johndeere.Activity.Fragment.DroneFragment;
 import com.hackathon.johndeere.R;
 
 public class HomeActivity extends AppCompatActivity

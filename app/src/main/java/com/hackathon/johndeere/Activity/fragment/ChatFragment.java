@@ -1,4 +1,4 @@
-package com.hackathon.johndeere.Activity.fragment;
+package com.hackathon.johndeere.Activity.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
 import com.hackathon.johndeere.R;

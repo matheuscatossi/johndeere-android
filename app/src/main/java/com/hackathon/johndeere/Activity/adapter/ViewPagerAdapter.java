@@ -1,4 +1,4 @@
-package com.hackathon.johndeere.Activity.adapter;
+package com.hackathon.johndeere.Activity.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
