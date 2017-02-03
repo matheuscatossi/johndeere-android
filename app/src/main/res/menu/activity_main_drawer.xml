@@ -3,9 +3,9 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/saldo"
-            android:icon="@mipmap/ic_launcher"
-            android:title="Saldo" />
+            android:id="@+id/sobre"
+            android:icon="@drawable/about"
+            android:title="Sobre nós" />
 
     </group>
 

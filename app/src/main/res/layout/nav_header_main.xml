@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="#24cfb9"
+    android:background="#3ab948"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -22,7 +22,7 @@
             android:layout_height="99dp"
             android:layout_marginTop="15dp"
             android:paddingTop="10dp"
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@drawable/drone2" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -30,26 +30,38 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Olá, amigo." />
+                android:text="Olá, amigo do campo." />
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Como você está?" />
+
+            <TextView
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="10dp"
                 android:text="JohnDeere" />
 
-
-
+            <TextView
+                android:gravity="right"
+                android:textColor="#ffea05"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="#OCampoNaCampus" />
         </LinearLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+
 
 </LinearLayout>
