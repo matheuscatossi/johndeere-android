@@ -1,4 +1,4 @@
-package com.hackathon.johndeere.Activity.Fragment;
+package com.hackathon.johndeere.Activity.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -33,6 +33,8 @@ public class ChatFragment extends Fragment {
 
         if (savedInstanceState == null) {
             mWebView = (WebView) v.findViewById(R.id.webView);
+            mWebView.getSettings().setJavaScriptEnabled(true);
+            mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
             mWebView.loadUrl("http://bankbox.net.br/john-deere/watson/");
         }
 
