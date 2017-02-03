@@ -1,4 +1,4 @@
-package com.hackathon.johndeere.Activity.Fragment;
+package com.hackathon.johndeere.Activity.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
