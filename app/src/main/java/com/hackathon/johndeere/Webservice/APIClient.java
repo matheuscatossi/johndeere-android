@@ -13,7 +13,7 @@ public class APIClient {
 
     private static Retrofit retrofit = null;
 
-    public Retrofit sendChat() {
+    public static Retrofit getService() {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder().baseUrl(Constants.BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
         }
