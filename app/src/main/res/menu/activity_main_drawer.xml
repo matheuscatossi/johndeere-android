@@ -3,7 +3,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/sobre"
+            android:id="@+id/about"
             android:icon="@drawable/about"
             android:title="Sobre nós" />
 

@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="#3ab948"
+    android:background="#ffbc43"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingBottom="30dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
@@ -20,9 +20,11 @@
             android:id="@+id/imageView"
             android:layout_width="101dp"
             android:layout_height="99dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:paddingTop="10dp"
-            app:srcCompat="@drawable/drone2" />
+            app:srcCompat="@drawable/icone_drone" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -31,6 +33,7 @@
 
             <TextView
                 android:layout_marginTop="30dp"
+                android:textColor="#288132"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Olá, amigo do campo." />
@@ -38,30 +41,30 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#288132"
                 android:text="Como você está?" />
 
             <TextView
                 android:gravity="right"
+                android:layout_marginTop="5dp"
                 android:layout_gravity="right"
                 android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="10dp"
+                android:textColor="#288132"
                 android:text="JohnDeere" />
 
             <TextView
                 android:gravity="right"
-                android:textColor="#ffea05"
+                android:layout_marginTop="15dp"
+                android:textColor="#288132"
                 android:layout_gravity="right"
                 android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:textSize="13dp"
                 android:text="#OCampoNaCampus" />
         </LinearLayout>
-
     </LinearLayout>
-
-
-
 </LinearLayout>

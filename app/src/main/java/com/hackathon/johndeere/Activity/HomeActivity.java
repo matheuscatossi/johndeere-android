@@ -1,6 +1,7 @@
 package com.hackathon.johndeere.Activity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
@@ -103,6 +104,13 @@ public class HomeActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
+        int id = item.getItemId();
+        if (id == R.id.about) {
+            Intent i = new Intent(this, AboutActivity.class);
+            startActivity(i);
+        }
+
         return true;
     }
 
