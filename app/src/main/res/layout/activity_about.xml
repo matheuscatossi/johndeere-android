@@ -32,14 +32,14 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Carol"
+                android:text="Carol Torres"
                 android:textSize="16dp"/>
 
             <TextView
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="xxxxxxxx"
+                android:text="Estudante e atuante em UX Designer."
                 android:textSize="14dp"/>
         </LinearLayout>
     </LinearLayout>
@@ -79,7 +79,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="  Desenvolvedor PHP, Java e Javascript com experiência em desenvolvimento em aplicações bancárias."
+                android:text="  Desenvolvedor PHP, Java e Javascript com experiência em desenvolvimento em aplicações financeiras."
                 android:textSize="14dp"/>
         </LinearLayout>
     </LinearLayout>
@@ -114,14 +114,14 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rodrigo"
+                android:text="Rodrigo Terron"
                 android:textSize="16dp"/>
 
             <TextView
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" xxxxx"
+                android:text=" Empreendedor, formado em Análise e Desen. de Sistemas e especialista em Inteligência Artificial."
                 android:textSize="14dp"/>
         </LinearLayout>
     </LinearLayout>
@@ -156,14 +156,14 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Thiago"
+                android:text="Thiago Butignon"
                 android:textSize="16dp"/>
 
             <TextView
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="xxxxxxx"
+                android:text="Serial empreendedor e inovador, especialista em disrupção e criação de negócios exponenciais."
                 android:textSize="14dp"/>
         </LinearLayout>
     </LinearLayout>
@@ -199,14 +199,14 @@
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vitor"
+                android:text="Vitor Shinya"
                 android:textSize="16dp"/>
 
             <TextView
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="xxxxxx"
+                android:text="Desenvolvedor Fullstack Mobile e empreendedor."
                 android:textSize="14dp"/>
         </LinearLayout>
     </LinearLayout>

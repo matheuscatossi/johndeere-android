@@ -13,5 +13,5 @@ public class Constants {
     public static final String BASE_URL = "http://192.168.137.1/workspace/johndeere/";
     public static final String SEND_MESSAGE = "";
     public static final String INFO = "setInfoJSON.php";
-    public static final String INFO_CONSUME = "setInfoConsumeJSON.php";
+    public static final String INFO_CONSUME = "getInfoConsumoJSON.php";
 }

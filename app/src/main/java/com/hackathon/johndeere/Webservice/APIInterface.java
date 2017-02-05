@@ -22,6 +22,6 @@ public interface APIInterface {
     @GET(Constants.INFO)
     Call<Info> getInfo();
 
-    @GET(Constants.INFO)
-    Call<Consume> getInfoConsume();
+    @GET(Constants.INFO_CONSUME)
+    Call<String> getInfoConsume();
 }
